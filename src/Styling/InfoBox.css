@@ -1,0 +1,46 @@
+.infoBox {
+  flex: 1;
+}
+.MuiCardContent-root {
+  cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infoBox--selected {
+  border-top: 10px solid rgb(179, 241, 86);
+}
+
+.infoBox--red {
+  border-color: rgb(246, 73, 73);
+}
+
+.infoBox__cases--green {
+  color: lightgreen !important;
+}
+
+.infoBox__cases {
+  color: #e62246f5;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 1.2rem !important;
+  margin-top: 15px !important;
+}
+.MuiCardContent-root {
+  text-align: center;
+  font-family: "Itim", cursive;
+}
+.MuiCardContent-root > p {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-family: "Itim", cursive;
+  font-weight: 600 !important;
+}

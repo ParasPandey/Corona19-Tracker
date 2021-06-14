@@ -1,0 +1,37 @@
+.table__information h3 {
+  text-align: center;
+}
+.info_rows {
+  height: 400px;
+  overflow-y: scroll;
+  margin: 10px 0;
+}
+.info_rows::-webkit-scrollbar {
+  display: none;
+}
+
+.eachrow {
+  margin: 10px 5px;
+  color: #6a5d5d;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.eachrow tr {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.eachrow td {
+  padding: 0.5rem;
+  border: none;
+  margin: 0 1rem;
+}
+
+.eachrow:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+.eachrow:nth-of-type(even) {
+  background-color: #f8f8f8;
+}

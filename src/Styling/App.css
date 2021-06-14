@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(229, 226, 226); */
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.2)
+  );
+  font-family: "Itim", cursive;
+}
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 20px;
+  border: 2px solid whitesmoke;
+}
+.app {
+  display: flex;
+  margin-top: 1rem;
+}
+.mainbox {
+  flex: 0.99;
+  margin: 0 10px;
+}
+.mainbox .header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 2rem;
+}
+.dropdown {
+  background-color: white;
+}
+.infoboxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1000px) {
+  .app {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 25px;
+  }
+  .MuiCardContent-root > p {
+    font-size: 1.2rem !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header h1 {
+    font-size: 25px;
+  }
+  .MuiCardContent-root {
+    /* text-align: left !important; */
+    padding: 10px !important;
+  }
+  .MuiCardContent-root > p {
+    font-size: 1rem !important;
+  }
+  .socialLinks {
+    width: 70% !important;
+  }
+  .infoBox__cases {
+    font-size: 1.4rem !important;
+  }
+  .map {
+    height: 450px !important;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .infoboxes {
+    flex-direction: column;
+  }
+  .infoBox__cases {
+    font-size: 1.7rem !important;
+  }
+  .MuiCardContent-root {
+    padding: 16px !important;
+  }
+  .MuiCardContent-root > p {
+    font-size: 1.3rem !important;
+  }
+  .MuiCardContent-root .infoBox__total {
+    font-size: 1.1rem !important;
+  }
+  .mainbox .header {
+    margin: 0;
+  }
+  .MuiCard-root {
+    margin-bottom: 10px;
+  }
+  .map {
+    height: 400px !important;
+  }
+}
