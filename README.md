@@ -1,5 +1,21 @@
 # Getting Started with Create React App
 
+# Covid19 Tracker
+## Hello , This is Paras Pandey
+- 🤔 &nbsp; Exploring new technologies and being a coding enthusiastic.
+- 🎓 &nbsp; Studying Computer Science and Engineering at Moradabad Institude of Technology.
+
+<h2> Project Details - Covid19 Tracker </h2>
+
+<a href = "covid-19-tracker-1e3fb.web.app"> Project Link </a>
+
+<p> Implemented HTML,CSS,JAVASCRIPT,React and Firebase</p>
+<p> Features: </p>
+<p>1. Display total number of corona cases across all countries.</p>
+<p>2. Use chart and map to display the cases is beautiful way.</p>
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
