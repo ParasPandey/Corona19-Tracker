@@ -5,7 +5,7 @@
 
 <h2> Project Details - Covid19 Tracker </h2>
 
-<a href = "covid-19-tracker-1e3fb.web.app"> Project Link </a>
+<a href = "https://covid-19-tracker-1e3fb.web.app/"> Project Link </a>
 
 <p> Implemented HTML,CSS,JAVASCRIPT,React and Firebase</p>
 <p> Features: </p>
