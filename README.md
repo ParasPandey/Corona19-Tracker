@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 # Covid19 Tracker
 ## Hello , This is Paras Pandey
 - 🤔 &nbsp; Exploring new technologies and being a coding enthusiastic.
